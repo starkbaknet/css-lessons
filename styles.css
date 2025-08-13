@@ -1,5 +1,5 @@
 body {
-  color: white;
+  color: black;
 
   background: url("./bg.jpg");
   background-repeat: no-repeat;
@@ -11,7 +11,7 @@ body {
 .msg-box {
   width: 200px;
   height: 200px;
-  background-color: cadetblue;
+  background-color: pink;
 }
 
 .second-msg {
@@ -19,5 +19,6 @@ body {
 }
 
 h3 {
-  background-color: blueviolet;
+  background-color: palevioletred;
+text-align: center;}
 }
