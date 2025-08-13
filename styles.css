@@ -1,0 +1,19 @@
+body {
+  color: white;
+
+  background: url("./bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.msg-box {
+  width: 200px;
+  height: 200px;
+  background-color: cadetblue;
+}
+
+.second-msg {
+  margin-left: auto;
+}
