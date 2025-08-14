@@ -11,9 +11,12 @@ body {
 .msg-box {
   width: 200px;
   height: 200px;
-  background-color: cadetblue;
+  background-color: lightgreen;
 }
 
 .second-msg {
   margin-left: auto;
 }
+ h3{
+color: brown;
+border-radius: 10px 20px;
