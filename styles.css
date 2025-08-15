@@ -1,6 +1,5 @@
 body {
   color: white;
-
   background: url("./bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,3 +16,6 @@ body {
 .second-msg {
   margin-left: auto;
 }
+h3{
+  text-align:right;
+  color: red;
