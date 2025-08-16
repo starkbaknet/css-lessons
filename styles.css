@@ -37,10 +37,7 @@ body {
 
 
 .sender-name {
-  font-size: 0.85em;
-  font-weight: 600;
   color: #25d366;
-  margin-bottom: 4px;
 }
 
 .video-msg {
@@ -51,5 +48,16 @@ body {
 
 .second-msg-vedio {
   margin-left: auto;
+}
 
+.reciver-name,
+.sender-name {
+  font-size: 0.85em;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.reciver-name {
+  color: #202c33;
+  text-align: right;
 }
