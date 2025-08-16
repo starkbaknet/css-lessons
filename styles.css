@@ -1,20 +1,51 @@
 body {
-  color: white;
-  background: url("./bg.jpg");
+  margin: 0;
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url(bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 
 .msg-box {
-  width: 200px;
-  height: 200px;
-  background-color: cadetblue;
+  max-width: 60%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border-radius: 15px;
+  position: relative;
 }
 
+/* Hena 's message */
+.first-msg {
+  background-color: #d6e78ae3;
+  align-self: flex-start;
+  border-top-left-radius: 0;
+}
+
+/* Messages from me */
 .second-msg {
-  margin-left: auto;
+  background-color: #aa61b1;
+  align-self: flex-end;
+  border-top-right-radius: 0;
+}
+
+.msg-box p {
+  margin: 0 0 5px 0;
+  font-size: 0.95em;
+}
+
+
+.msg-box h3 {
+  margin: 0;
+  font-size: 0.75em;
+  color: rgb(88, 84, 84);
+  text-align: right;
 }
 h3{
   text-align:right;
