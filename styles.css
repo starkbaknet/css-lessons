@@ -1,21 +1,63 @@
 body {
   color: white;
-  background: url("./bg.jpg");
+  background: url("images/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 20px;
 }
 
+
 .msg-box {
-  width: 200px;
-  height: 200px;
-  background-color: cadetblue;
+  width: 230px;
+  height: 230px;
+  padding: 10px;
+  margin-top: 20px;
 }
 
 .second-msg {
   margin-left: auto;
+  background: linear-gradient(135deg, #25d366, #128c7e);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
 }
-h3{
-  text-align:right;
-  color: red;
+
+.first-msg {
+  margin-right: auto;
+  background: linear-gradient(135deg, #202c33, #2a3942);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.audio-msg {
+  width: 300px;
+  filter: invert(80%) sepia(10%) saturate(100%) hue-rotate(180deg);
+}
+
+
+.sender-name {
+  color: #25d366;
+}
+
+.video-msg {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.second-msg-vedio {
+  margin-left: auto;
+}
+
+.reciver-name,
+.sender-name {
+  font-size: 0.85em;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.reciver-name {
+  color: #202c33;
+  text-align: right;
+}
