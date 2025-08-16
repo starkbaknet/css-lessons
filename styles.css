@@ -1,6 +1,5 @@
 body {
   color: white;
-
   background: url("./bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,6 +16,7 @@ body {
 .second-msg {
   margin-left: auto;
 }
- h3{
+
+h3{
 color: brown;
 border-radius: 10px 20px;
