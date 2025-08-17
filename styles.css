@@ -1,6 +1,6 @@
 body {
   color: white;
-  background: url("./bg.jpg");
+  background: url("./img.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -10,12 +10,24 @@ body {
 .msg-box {
   width: 200px;
   height: 200px;
-  background-color: cadetblue;
+  background-color: rgb(23, 54, 0);
+  border-radius: 10%;
+  display: flex
+  font_size:60px;
 }
 
 .second-msg {
   margin-left: auto;
 }
+
+p{
+  color:green;
+  font-weight: bold;
+}
 h3{
   text-align:right;
-  color: red;
+  background: yellowgreen;
+  font-style: italic;
+  
+  
+}
