@@ -1,6 +1,6 @@
 body {
-  color: white;
-  background: url("./bg.jpg");
+  color: rgb(181, 16, 93);
+  background: url(download\ \(2\).webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -8,14 +8,24 @@ body {
 }
 
 .msg-box {
-  width: 200px;
-  height: 200px;
-  background-color: cadetblue;
-}
+  width: 150px;
+  height: 120px;
+   background-color: rgb(160, 5, 88);
+   color: rgb(1, 1, 15);
+text-align: center;}
+
 
 .second-msg {
-  margin-left: auto;
-}
-h3{
+  margin-left:auto;
   text-align:right;
-  color: red;
+    background-color: rgb(156, 166, 11);
+   color: rgba(1, 1, 15, 0.603);
+text-align:left;
+
+}
+
+
+
+  
+  
+ 
